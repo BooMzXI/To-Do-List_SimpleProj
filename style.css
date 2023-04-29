@@ -1,0 +1,86 @@
+body {
+    background: #f2f2f2;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 50px 100px;
+    width: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1)
+}
+.intro {
+    font-weight: 800;
+    text-align: center;
+    margin: 30px 0px;
+    border-radius: 5px;
+}
+#enter {
+    color: white;
+    background-color: #025F70;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.85 ease;
+}
+#enter:hover {
+    color: yellow;
+}
+input {
+    outline: none;
+}
+li {
+    border: 1px solid black;
+    margin: 10px 0px 5px auto;
+    list-style: none;
+    text-transform: capitalize;
+    transition: all 0.85 ease;
+    border-radius: 5px;
+    text-align: left;
+    background-color: deepskyblue;
+    font-weight: 300;
+    padding-left: 10px;
+    color: white;
+}
+li > button {
+    font-weight: 800;
+    background: none;
+    border: none;
+    float: right;
+    color: #025F70;
+}
+li:hover {
+    background-color: aqua;
+}
+.done {
+    background: #51DF70 !important;
+    color: #00891E;
+}
+.delete {
+    display: none;
+}
+@media (max-width: 820px) {
+    .container {
+        margin: 50px 50px;
+        width: 800px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 600px;
+        margin: 50px 20px;
+    }
+    .inputBox {
+        width: 200px;
+    }
+}
